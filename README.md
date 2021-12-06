@@ -1,5 +1,6 @@
 # THOREXMEME DEFI TOKEN 
-The ThorExMeme Defi is a Meme & Deflationary token with lots of built-in features. 
+The ThorExMeme Defi is a Meme & Defi Token with lots of built-in features. 
+Features include, Mint, Burn, Pause, Unpause, Flash Mint & Flash Loan functionalities
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
