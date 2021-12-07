@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "initiator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "onFlashLoan",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Interface of the ERC3156 FlashBorrower, as defined in https://eips.ethereum.org/EIPS/eip-3156[ERC-3156]. _Available since v4.1._",
+			"kind": "dev",
+			"methods": {
+				"onFlashLoan(address,address,uint256,uint256,bytes)": {
+					"details": "Receive a flash loan.",
+					"params": {
+						"amount": "The amount of tokens lent.",
+						"data": "Arbitrary data structure, intended to contain user-defined parameters.",
+						"fee": "The additional amount of tokens to repay.",
+						"initiator": "The initiator of the loan.",
+						"token": "The loan currency."
+					},
+					"returns": {
+						"_0": "The keccak256 hash of \"ERC3156FlashBorrower.onFlashLoan\""
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ThorExMeme_flat.sol": "IERC3156FlashBorrowerUpgradeable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ThorExMeme_flat.sol": {
+			"keccak256": "0x4b634dd5c920a639adbacbc522fb9c83480f9499b184e49c01695fb88be24930",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc407a63d61c2c08b4a0b817ffb2d83e55deecfc75a1030e851abbca7134828a",
+				"dweb:/ipfs/QmapZJXzo5jH3YEkjYitiyDTA7yDCee6JgjouMXGveTcej"
+			]
+		}
+	},
+	"version": 1
+}

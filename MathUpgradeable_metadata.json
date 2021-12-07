@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Standard math utilities missing in the Solidity language.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ThorExMeme_flat.sol": "MathUpgradeable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ThorExMeme_flat.sol": {
+			"keccak256": "0x4b634dd5c920a639adbacbc522fb9c83480f9499b184e49c01695fb88be24930",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bc407a63d61c2c08b4a0b817ffb2d83e55deecfc75a1030e851abbca7134828a",
+				"dweb:/ipfs/QmapZJXzo5jH3YEkjYitiyDTA7yDCee6JgjouMXGveTcej"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+
+[remote "thorexmeme"]
+	fetch = +refs/heads/*:refs/remotes/ThorExMeme/*
+	url = https://github.com/1Blackdiamondsc/thorexmeme_token
